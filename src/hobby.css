@@ -1,0 +1,59 @@
+
+body{
+    background-color: lightblue;
+}
+.links{
+    border: 2px lightblue solid;
+    padding: 10px;
+    text-align: center;
+}
+
+#myForm{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    margin:35px auto;
+}
+.links a{
+    text-decoration: none;
+    padding: 12px  20px;
+    background-color: #d0e8e3;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 15px;
+}
+input[type=submit] {
+    background-color:yellow;
+    color: black;
+    padding: 12px  20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+}
+label {
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+}
+.f {
+    //float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row {
+    content: "";
+    display:table;
+    clear: both;
+}
+input[type=reset] {
+    background-color:yellow;
+    color: black;
+    padding: 12px  20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+}
